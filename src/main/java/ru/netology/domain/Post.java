@@ -2,6 +2,7 @@ package ru.netology.domain;
 
 public class Post {
     // data classes
+    private Post post;
     private String id;
     private String ownerId;
     private String fromId;
