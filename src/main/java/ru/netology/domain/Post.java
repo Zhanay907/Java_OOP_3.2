@@ -12,13 +12,12 @@ public class Post {
     private String replyPostId;
     private String frienlyOnly;
     private int singerId;
-    private int canPin;
-    private int canDelete;
-    private int canEdit;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
     private int isPinned;
-    private int marketAsAds;
+    private boolean marketAsAds;
     private String postSourse;
-    private String attachments;
     private String geo;
     private String donut;
     private int postponedId;
